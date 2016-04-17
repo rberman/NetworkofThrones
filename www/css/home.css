@@ -1,0 +1,22 @@
+body {
+
+}
+
+.navbar-inverse {
+    /*background-color: #5b0f00;*/
+}
+
+#title {
+    background: url('../img/title.png') no-repeat;
+    background-size: cover;
+    top: 0;
+    height: 800px;
+    width: 100%;
+    clear: both;
+}
+
+#about {
+    height: 800px;
+    width: 100%;
+    clear: both;
+}
