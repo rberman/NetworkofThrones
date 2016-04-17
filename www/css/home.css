@@ -8,6 +8,7 @@ body {
 
 #title {
     background: url('../img/title.png') no-repeat;
+    /* Photo from https://i.ytimg.com/vi/KC6sqRO0GT4/maxresdefault.jpg*/
     background-size: cover;
     top: 0;
     height: 800px;
