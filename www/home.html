@@ -6,16 +6,16 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    <script src="js/home.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poiret%20One" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <nav class="navbar-inverse  navbar-fixed-top">
+    <nav class="nav-bar navbar-inverse  navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#title">Network of Thrones</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#title">Home</a></li>
+                <!--<li><a href="#title">Home</a></li>-->
                 <li><a href="#about">About</a></li>
                 <li><a href="#page2">Page 2</a></li>
                 <li><a href="#page3">Page 3</a></li>
@@ -23,18 +23,32 @@
         </div>
     </nav>
     <div id="title">
-        <img src="img/title.png" id="title-img" usemap="#networkmap">
-        <!--Photo from https://i.ytimg.com/vi/KC6sqRO0GT4/maxresdefault.jpg-->
-        <map name="networkmap">
-            <area shape="circle" coords="1025,215,27" href="#about" alt="About">
-            <area shape="circle" coords="1093,318,20" href="#page2" alt="Page2">
-            <area shape="circle" coords="975,425,27" href="#page3" alt="Page3">
+        <!--<object id="network" data="img/background-text.svg"  type="image/svg+xml" width="1000px" height="800px">-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="5px" height="5px">
+                <img id="network" src="img/background-text.svg">
+                <g>
+                    <circle id="circle1" r="300" cx="340" cy="34" style="fill: red; stroke: blue; stroke-width: 2"/>
+                </g>
+                </img>
+            </svg>
+        <!--</object>-->
 
-        </map>
     </div>
     <div id="about">
         <br><br><br>
         <h1>ABOUT PAGE</h1>
+
+        <svg id="svg1" xmlns="http://www.w3.org/2000/svg" style="width: 3.5in; height: 1in">
+            <img id="network" src="img/background-text.svg">
+                Something should show up here.
+            </img>
+            <circle id="circle1" r="30" cx="34" cy="34" style="fill: red; stroke: blue; stroke-width: 2"/>
+
+            <!--Load the logo as an img
+            draw the circles on top of it
+            make circles interactable-->
+        </svg>
+
     </div>
     <div id="page2">
         <h1>PAGE 2</h1>

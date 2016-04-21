@@ -1,13 +1,30 @@
-body {
+#title {
+    background: url('../img/background-throne.svg') no-repeat top left;
+    background-size: cover;
+    /*background-size: cover;*/
+    /*height: 900px;*/
+    /*clear: both;*/
+    /*display: block;*/
 }
 
-.navbar-inverse {
-    /*background-color: #5b0f00;*/
+#network {
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
-#title-img {
-    height: 900px;
-    width: 1300px;
+.nav-bar {
+    font-family: 'Poret One', sans-serif;
+}
+
+.circle {
+    opacity: 0;
+    fill: rgb(185, 185, 185);
+    fill-opacity: 1;
+    stroke: black;
+    stroke-width: 0.5;
+    stroke-miterlimit: 3.97447;
+    stroke-dasharray: none;
+    stroke-opacity: 1;
 }
 
 #about {
