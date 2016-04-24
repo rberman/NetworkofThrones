@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     // Slide down animation
     // Source: http://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
-    $('a[href^="#"]').on('click',function (e) {
+    $('a[href^="#"], area').on('click',function (e) {
         e.preventDefault();
 
         var target = this.hash;
@@ -25,5 +25,22 @@ $(document).ready(function(){
     }, 900, 'swing');
 
 
+    if($('#location-map')) {
+        $('#location-map area').each(function() {
+            var id = $(this).attr('id');
+            $(this).mouseover(function() {
+                $('#overlay'+id).show();
+
+            });
+
+            $(this).mouseout(function() {
+                var id = $(this).attr('id');
+                $('#overlay'+id).hide();
+            });
+
+        });
+    }
+
+    // For resizing the image map on the title
     $('img[usemap]').rwdImageMaps();
 });
