@@ -2,52 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Network of Thrones</title>
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret%20One" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/home.js"></script>
 </head>
 <body>
-    <nav class="nav-bar navbar-inverse  navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#title">Network of Thrones</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <!--<li><a href="#title">Home</a></li>-->
-                <li><a href="#about">About</a></li>
-                <li><a href="#page2">Page 2</a></li>
-                <li><a href="#page3">Page 3</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!--<nav class="nav-bar navbar-inverse  navbar-fixed-top">-->
+        <!--<div class="container-fluid">-->
+            <!--<div class="navbar-header">-->
+                <!--<a class="navbar-brand" href="#title">Network of Thrones</a>-->
+            <!--</div>-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--&lt;!&ndash;<li><a href="#title">Home</a></li>&ndash;&gt;-->
+                <!--<li><a href="#about">About</a></li>-->
+                <!--<li><a href="#page2">Page 2</a></li>-->
+                <!--<li><a href="#page3">Page 3</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</nav>-->
     <div id="title">
-        <!--<object id="network" data="img/background-text.svg"  type="image/svg+xml" width="1000px" height="800px">-->
-            <svg xmlns="http://www.w3.org/2000/svg" width="5px" height="5px">
-                <img id="network" src="img/background-text.svg">
-                <g>
-                    <circle id="circle1" r="300" cx="340" cy="34" style="fill: red; stroke: blue; stroke-width: 2"/>
-                </g>
-                </img>
-            </svg>
-        <!--</object>-->
+        <img src="img/cover-text.png" id="title-text" usemap="#network-map" width="960" height="720"/>
+        <map name="network-map">
+            <area shape="circle" coords="285,95,40" href="#" alt="About">
+            <area shape="circle" coords="333,179,35" href="#" alt="Page2">
+            <area shape="circle" coords="233,268,40" href="#" alt="Page3">
+        </map>
 
     </div>
     <div id="about">
         <br><br><br>
         <h1>ABOUT PAGE</h1>
-
-        <svg id="svg1" xmlns="http://www.w3.org/2000/svg" style="width: 3.5in; height: 1in">
-            <img id="network" src="img/background-text.svg">
-                Something should show up here.
-            </img>
-            <circle id="circle1" r="30" cx="34" cy="34" style="fill: red; stroke: blue; stroke-width: 2"/>
-
-            <!--Load the logo as an img
-            draw the circles on top of it
-            make circles interactable-->
-        </svg>
 
     </div>
     <div id="page2">
