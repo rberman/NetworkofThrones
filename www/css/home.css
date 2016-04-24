@@ -1,15 +1,24 @@
+/***************************************/
+/* Landing page; Cover */
+/***************************************/
+
 #title {
     background: url('../img/background-throne.svg') no-repeat top left;
     background-size: cover;
-    /*background-size: cover;*/
-    /*height: 900px;*/
-    /*clear: both;*/
-    /*display: block;*/
+}
+
+#title-text {
+    margin-top: 17vh;
+    margin-left: 10vw;
 }
 
 #network {
     margin-top: 10%;
     margin-left: 5%;
+}
+
+#network-map {
+    position: relative
 }
 
 .nav-bar {

@@ -1,32 +1,29 @@
 /**
- * Created by rberman on 4/18/16.
+ * Created by rberman on 4/24/16.
  */
 
-window.onload = function () {
-    var ImageMap = function (map) {
-            var n,
-                areas = map.getElementsByTagName('area'),
-                len = areas.length,
-                coords = [],
-                previousWidth = 1920;
-            for (n = 0; n < len; n++) {
-                coords[n] = areas[n].coords.split(',');
-            }
-            this.resize = function () {
-                var n, m, clen,
-                    x = document.body.clientWidth / previousWidth;
-                for (n = 0; n < len; n++) {
-                    clen = coords[n].length;
-                    for (m = 0; m < clen; m++) {
-                        coords[n][m] *= x;
-                    }
-                    areas[n].coords = coords[n].join(',');
-                }
-                previousWidth = document.body.clientWidth;
-                return true;
-            };
-            window.onresize = this.resize;
-        },
-        imageMap = new ImageMap(document.getElementById('map_ID'));
-    imageMap.resize();
-}
+
+$(document).ready(function(){
+
+    // Slide down animation
+    // Source: http://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 900, 'swing');
+
+
+    $('img[usemap]').rwdImageMaps();
+});
