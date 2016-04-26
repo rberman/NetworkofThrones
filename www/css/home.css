@@ -1,4 +1,16 @@
 /***************************************/
+/* Navigation Bar */
+/***************************************/
+.nav-bar {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+/***************************************/
 /* Landing page; Cover */
 /***************************************/
 
@@ -19,21 +31,6 @@
 
 #network-map {
     position: relative
-}
-
-.nav-bar {
-    font-family: 'Poret One', sans-serif;
-}
-
-.circle {
-    opacity: 0;
-    fill: rgb(185, 185, 185);
-    fill-opacity: 1;
-    stroke: black;
-    stroke-width: 0.5;
-    stroke-miterlimit: 3.97447;
-    stroke-dasharray: none;
-    stroke-opacity: 1;
 }
 
 #about {

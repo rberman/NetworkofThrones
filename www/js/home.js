@@ -20,26 +20,29 @@ $(document).ready(function(){
         });
     });
 
-    $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-    }, 900, 'swing');
+    // Mouseover buttons
+    $('#network-node').hover(
+        function() {
+            $('#title-text').attr("src", "img/cover-text-net.png");
+        }, function() {
+            $('#title-text').attr("src", "img/cover-text.png");
+        }
+    );
+    $('#of-node').hover(
+        function() {
+            $("#title-text").attr("src", "img/cover-text-of.png");
+        }, function() {
+            $("#title-text").attr("src", "img/cover-text.png");
+        }
+    );
+    $('#thrones-node').hover(
+        function() {
+            $("#title-text").attr("src", "img/cover-text-thro.png");
+        }, function() {
+            $("#title-text").attr("src", "img/cover-text.png");
+        }
+    );
 
-
-    if($('#location-map')) {
-        $('#location-map area').each(function() {
-            var id = $(this).attr('id');
-            $(this).mouseover(function() {
-                $('#overlay'+id).show();
-
-            });
-
-            $(this).mouseout(function() {
-                var id = $(this).attr('id');
-                $('#overlay'+id).hide();
-            });
-
-        });
-    }
 
     // For resizing the image map on the title
     $('img[usemap]').rwdImageMaps();
