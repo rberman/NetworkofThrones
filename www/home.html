@@ -12,36 +12,44 @@
     <script src="js/home.js"></script>
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <nav class="nav-bar navbar-inverse  navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand pull-left active" href="#title"><strong>Network of Thrones</strong></a>
             </div>
             <ul class="nav navbar-nav">
-                <!--<li><a href="#title">Home</a></li>-->
                 <li><a href="#about" class="pull-left">About</a></li>
                 <li><a href="#page2" class="pull-left">Page 2</a></li>
                 <li><a href="#page3" class="pull-left">Page 3</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- Cover of Landing Page -->
     <div id="title">
+        <!-- Text on cover and image map -->
         <img src="img/cover-text.png" id="title-text" usemap="#network-map" width="960" height="720"/>
         <map name="network-map" id="network-map">
             <area shape="circle" id='network-node' coords="285,95,40" href="#about" alt="About">
             <area shape="circle" id='of-node' coords="332,180,31" href="#" alt="Page2">
             <area shape="circle" id='thrones-node' coords="233,268,40" href="#" alt="Page3">
         </map>
-
     </div>
+
+    <!-- About Section -->
     <div id="about">
         <br><br><br>
         <h1>ABOUT PAGE</h1>
-
     </div>
+
+    <!-- Page 2 Placeholder-->
     <div id="page2">
         <h1>PAGE 2</h1>
     </div>
+
+    <!-- Page 3 Placeholder -->
     <div id="page3">
         <h1>PAGE3</h1>
     </div>

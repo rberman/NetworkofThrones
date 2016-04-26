@@ -20,7 +20,7 @@ $(document).ready(function(){
         });
     });
 
-    // Mouseover buttons
+    // When user hovers over nodes in the cover title, they get bigger
     $('#network-node').hover(
         function() {
             $('#title-text').attr("src", "img/cover-text-net.png");
@@ -44,6 +44,6 @@ $(document).ready(function(){
     );
 
 
-    // For resizing the image map on the title
+    // For resizing the image map on the title when the window is resized
     $('img[usemap]').rwdImageMaps();
 });

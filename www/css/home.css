@@ -14,25 +14,24 @@
 /* Landing page; Cover */
 /***************************************/
 
+/* Background image for cover page */
 #title {
     background: url('../img/background-throne.svg') no-repeat top left;
     background-size: cover;
 }
 
+/* Network of Thrones text image */
 #title-text {
     margin-top: 17vh;
     margin-left: 10vw;
 }
 
-#network {
-    margin-top: 10%;
-    margin-left: 5%;
-}
-
+/* Image Map for Cover text */
 #network-map {
     position: relative
 }
 
+/* About section of landing page */
 #about {
     height: 800px;
     width: 100%;
