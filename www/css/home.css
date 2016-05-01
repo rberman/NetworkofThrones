@@ -18,12 +18,14 @@
 #title {
     background: url('../img/background-throne.svg') no-repeat top left;
     background-size: cover;
+    background-color: black;
 }
 
 /* Network of Thrones text image */
 #title-text {
     margin-top: 17vh;
     margin-left: 10vw;
+    margin-bottom: 0;
 }
 
 /* Image Map for Cover text */
@@ -31,9 +33,90 @@
     position: relative
 }
 
-/* About section of landing page */
-#about {
-    height: 800px;
+/* Networks section of landing page */
+#network {
+    background: url('../img/networkGOT.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.network-info {
+    top: 10vh;
+    padding-top: 10%;
+    padding-right: 50%;
+    padding-left: 5%;
+}
+
+#network-title {
+    color: black;
+    font-size: 7vw;
+    text-align: left;
+}
+
+.network-button {
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    font-size: 5vw;
+}
+
+/* Books section of landing page */
+#books {
+    background: url('../img/booksGOT.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
     width: 100%;
     clear: both;
+    margin:0;
+}
+
+.book-info {
+    top:10vh;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 50%;
+}
+
+#books-title {
+    color: white;
+    font-size: 7vw;
+    text-align: right;
+}
+
+.books-button {
+    margin-top: 10%;
+    float: right;
+    font-size: 5vw;
+}
+
+
+/* About Us section of landing page */
+#about {
+    background: url('../img/aboutGOT.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    clear: both;
+    margin:0;
+}
+
+.about-info {
+    top: 10vh;
+    padding-top: 10%;
+    padding-right: 50%;
+    padding-left: 5%;
+}
+
+#about-title {
+    color: black;
+    font-size: 7vw;
+    text-align: left;
+}
+
+.about-button {
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    font-size: 5vw;
 }

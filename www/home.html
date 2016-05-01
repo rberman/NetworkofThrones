@@ -20,9 +20,9 @@
                 <a class="navbar-brand pull-left active" href="#title"><strong>Network of Thrones</strong></a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="#about" class="pull-left">About</a></li>
-                <li><a href="#page2" class="pull-left">Page 2</a></li>
-                <li><a href="#page3" class="pull-left">Page 3</a></li>
+                <li><a href="#network" class="pull-left">Networks</a></li>
+                <li><a href="#books" class="pull-left">Books</a></li>
+                <li><a href="#about" class="pull-left">About Us</a></li>
             </ul>
         </div>
     </nav>
@@ -32,26 +32,44 @@
         <!-- Text on cover and image map -->
         <img src="img/cover-text.png" id="title-text" usemap="#network-map" width="960" height="720"/>
         <map name="network-map" id="network-map">
-            <area shape="circle" id='network-node' coords="285,95,40" href="#about" alt="About">
-            <area shape="circle" id='of-node' coords="332,180,31" href="#" alt="Page2">
-            <area shape="circle" id='thrones-node' coords="233,268,40" href="#" alt="Page3">
+            <area shape="circle" id='network-node' coords="285,95,40" href="#network" alt="Books">
+            <area shape="circle" id='of-node' coords="332,180,31" href="#books" alt="Page2">
+            <area shape="circle" id='thrones-node' coords="233,268,40" href="#about" alt="Page3">
         </map>
     </div>
 
-    <!-- About Section -->
-    <div id="about">
-        <br><br><br>
-        <h1>ABOUT PAGE</h1>
+    <!-- Networks-->
+    <div id="network">
+        <div class="network-info">
+            <h1 id="network-title">What is a network?</h1>
+        </div>
+        <button type="button" class="btn btn-danger btn-lg network-button">
+            Learn about Networks
+        </button>
     </div>
 
-    <!-- Page 2 Placeholder-->
-    <div id="page2">
-        <h1>PAGE 2</h1>
+    <!-- Books Section -->
+    <div id="books">
+        <div class="book-info">
+            <h1 id="books-title" class="">
+                Who is most important?
+            </h1>
+            <a type="button" class="btn btn-primary btn-lg books-button" href="templates/books.html">
+                Discover the Books
+            </a>
+        </div>
     </div>
+
+
 
     <!-- Page 3 Placeholder -->
-    <div id="page3">
-        <h1>PAGE3</h1>
+    <div id="about">
+        <div class="about-info">
+            <h1 id="about-title">About This Project</h1>
+        </div>
+        <button type="button" class="btn btn-default btn-lg about-button">
+            What We Did
+        </button>
     </div>
 
 </body>
