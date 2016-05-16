@@ -1,0 +1,31 @@
+/* Networks Page Formatting */
+#network-page h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 10vw;
+}
+
+#network-page h2 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.info-image {
+    width: 60vw;
+    margin-top: 2%;
+    margin-bottom: 0;
+    float: left;
+}
+
+.block {
+    width: 30vw;
+    margin-top: 5%;
+    border-radius:20%;
+    padding: 4%;
+    background: #001a4b;
+    color: white;
+    font-size: 1.4vw;
+    font-family: Verdana, Geneva, sans-serif;
+    /*text-align: center;*/
+    float: left;
+}
