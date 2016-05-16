@@ -29,3 +29,16 @@ h2 {
     /*text-align: center;*/
     float: left;
 }
+
+
+/* EXAMPLE NETWORK*/
+
+#example-network {
+    display: block;
+    margin: auto ;
+}
+
+/* Image Map for Cover text */
+#net-ex-map {
+    position: relative
+}
