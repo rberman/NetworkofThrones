@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 10vw;
+}
+
+.container .jumbotron {
+    background: #001a4b;
+    color: white;
+}
