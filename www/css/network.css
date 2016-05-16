@@ -1,11 +1,11 @@
 /* Networks Page Formatting */
-#network-page h1 {
+h1 {
     text-align: center;
     margin-top: 70px;
     font-size: 10vw;
 }
 
-#network-page h2 {
+h2 {
     text-align: center;
     font-size: 3vw;
 }
