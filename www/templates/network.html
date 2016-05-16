@@ -47,12 +47,45 @@
     <h2>Hover over the graph to get to know the parts of a network.</h2>
 
     <!--TODO: Interactive Network-->
-    <div class="container">
-        <div class="jumbotron ">
-            INTERACTIVE NETWORK HERE
-        </div>
+    <div>
+        <!-- Text on cover and image map -->
+        <img src="img/CoverText/cover-text.png" id="title-text" usemap="#network-map" width="960" height="720"/>
+        <map name="network-map" id="network-map">
+            <area shape="circle" id='network-node' coords="285,95,40" href="#network" alt="Books">
+            <area shape="circle" id='of-node' coords="332,180,31" href="#books" alt="Page2">
+            <area shape="circle" id='thrones-node' coords="233,268,40" href="#about" alt="Page3">
+        </map>
     </div>
 
+
+    <div class="container">
+        <div class="jumbotron">
+            <p>
+                This brings us to our mathematical definition of a network.
+                A <strong>network</strong> models a set of objects where some pairs are related in a specified way.
+                We refer to these objects as the <strong>vertices</strong> of the network.
+                When we visualize a network, its vertices are drawn as points (dots, circles).
+                The network relationships are modeled by <strong>edges</strong> that connect pairs of vertices.
+                These edges are drawn as lines or arcs that connect pairs of vertices.
+            </p>
+
+            <p>
+                As we know from experience, not all relationships are equal:
+                you are more closely related to your friends than to your acquaintances, even though you “know” both.
+                Therefore, we assign a positive weight to each edge in order to indicate the strength of the relationship.
+                Sometimes researchers look at directed edges to represent a one-way relationship.
+            </p>
+            <p>
+                Just as the edges of a network have attributes, the vertices of a network can have inherent characteristics.
+                However, vertices gain additional qualities depending on their place and value in the network.
+                For example, we can group vertices into communities, based on how frequently they interact with one another.
+                We can also identify how important a particular vertex is to the network: Does it have a lot of connections?
+                It is uniquely positioned to help to connect other pairs of vertices? Broadly speaking,
+                these kinds of importance are called centrality measures, and we will explore multiple ways to “be central” in a given network.
+            </p>
+
+        </div>
+    </div>
 
 </body>
 </html>

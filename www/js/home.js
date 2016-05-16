@@ -23,23 +23,23 @@ $(document).ready(function(){
     // When user hovers over nodes in the cover title, they get bigger
     $('#network-node').hover(
         function() {
-            $('#title-text').attr("src", "img/cover-text-net.png");
+            $('#title-text').attr("src", "img/CoverText/cover-text-net.png");
         }, function() {
-            $('#title-text').attr("src", "img/cover-text.png");
+            $('#title-text').attr("src", "img/CoverText/cover-text.png");
         }
     );
     $('#of-node').hover(
         function() {
-            $("#title-text").attr("src", "img/cover-text-of.png");
+            $("#title-text").attr("src", "img/CoverText/cover-text-of.png");
         }, function() {
-            $("#title-text").attr("src", "img/cover-text.png");
+            $("#title-text").attr("src", "img/CoverText/cover-text.png");
         }
     );
     $('#thrones-node').hover(
         function() {
-            $("#title-text").attr("src", "img/cover-text-thro.png");
+            $("#title-text").attr("src", "img/CoverText/cover-text-thro.png");
         }, function() {
-            $("#title-text").attr("src", "img/cover-text.png");
+            $("#title-text").attr("src", "img/CoverText/cover-text.png");
         }
     );
 
