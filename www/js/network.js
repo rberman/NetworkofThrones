@@ -28,6 +28,13 @@ $(document).ready(function(){
             $('#example-network').attr("src", "../img/NetworkExample/Main.svg");
         }
     );
+    $('#example-directed').hover(
+        function() {
+            $("#example-network").attr("src", "../img/NetworkExample/DirectedEdge.svg");
+        }, function() {
+            $("#example-network").attr("src", "../img/NetworkExample/Main.svg");
+        }
+    );
     $('#example-edge').hover(
         function() {
             $("#example-network").attr("src", "../img/NetworkExample/Edge.svg");

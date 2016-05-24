@@ -52,9 +52,7 @@
 
 .network-info {
     top: 10vh;
-    padding-top: 10%;
-    padding-right: 50%;
-    padding-left: 5%;
+    padding: 10% 50% 0 5%;
 }
 
 #network-title {

@@ -36,9 +36,16 @@ h2 {
 #example-network {
     display: block;
     margin: auto ;
+    margin-bottom: 0;
 }
 
 /* Image Map for Cover text */
 #net-ex-map {
     position: relative
+}
+
+
+/* More Information */
+.jumbotron h1 {
+    margin-top: 0;
 }
